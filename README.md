@@ -3,6 +3,7 @@ Empty starter app for vue with a docker file.
 
 # Prerequesites
 * Docker installed
+* Git and Github knowledge
 
 # Setup Environment Variables
 * add .env file to application root
@@ -10,6 +11,8 @@ Empty starter app for vue with a docker file.
   * VUE_APP_DW_DB_RW_TOKEN=<data-world-db-token>
   * VUE_APP_DW_DB_A_TOKEN=<data-world-admin-token>
 * make sure you add .env to your .gitignore
+
+# Docker Compose
 
 
 # Docker first version Using Docker Compose for NodeJS Development
@@ -23,7 +26,7 @@ Empty starter app for vue with a docker file.
 
 # Clone Repo
 * git clone -b <branch-name> https://github.com/Wilfongjt/dock-vue.git
-* cd docke-vue
+* cd dock-vue
 * Setup Environment Variables
 
 # Test Process

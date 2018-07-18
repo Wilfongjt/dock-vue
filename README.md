@@ -4,8 +4,8 @@ Empty starter app for vue with a docker file.
 # Prerequesites
 * Docker installed
 
-# Environment Variables
-* add .env file to application root file
+# Setup Environment Variables
+* add .env file to application root
   * VUE_APP_DW_DB_URL=https://api.data.world/v0/datasets/wilfongjt
   * VUE_APP_DW_DB_RW_TOKEN=<data-world-db-token>
   * VUE_APP_DW_DB_A_TOKEN=<data-world-admin-token>
@@ -20,3 +20,22 @@ Empty starter app for vue with a docker file.
 # Tests
 * create data.world table
 * drop data.world table
+
+# Clone Repo
+* git clone -b <branch-name> https://github.com/Wilfongjt/dock-vue.git
+* cd docke-vue
+* Setup Environment Variables
+
+# Test Process
+* Clone Repo
+* cd dock-vue
+* Setup Environment Variables
+* npm install
+* npm run test
+
+# Run Process
+* Clone Repo
+* cd dock-vue
+* Setup Environment Variables
+* npm install
+* npm run dev

@@ -40,7 +40,7 @@ export default {
       return turl
     },
     postCreateTableBody: function () {
-      let tableDef = '{ "title": "%s", "description": "test data", "summary": "test data summary", "tags": [ "test"], "license": "PDDL", "visibility": "OPEN", "files": [ { "name": "create.seed.csv.csv", "source": { "url": "https://raw.github.com/Wilfongjt/envnode/blob/create-table/data/create.seed.csv" }, "description": "more about test data", "labels": [ "raw data" ] } ] }'
+      let tableDef = '{ "title": "%s", "description": "test data", "summary": "test data summary", "tags": [ "test"], "license": "PDDL", "visibility": "OPEN", "files": [ { "name": "seed.csv", "source": { "url": "https://raw.githubusercontent.com/Wilfongjt/source-data/master/data-world/seed.csv" }, "description": "more about test data", "labels": [ "raw data" ] } ] }'
         .replace('%s', this.tableName)
       return tableDef
     }

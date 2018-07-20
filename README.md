@@ -20,6 +20,10 @@ Empty starter app for vue with a docker file.
 * docker build --force-rm -t dock-vue .  
 * docker run --rm -p 8080:8080 dock-vue
 
+# Test Setup
+* a seed.csv table must be made part of the source-data github repo
+
+
 # Tests
 * create data.world table
 * drop data.world table

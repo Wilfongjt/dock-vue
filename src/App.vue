@@ -1,16 +1,22 @@
 <template>
   <div id="app">
+    <lb-nav></lb-nav>
     <hello-data-world></hello-data-world>
+    <cl-load></cl-load>
   </div>
 </template>
 
 <script>
+import lbNav from './components/lbNav'
 import helloDataWorld from './components/HelloDataWorld'
+import clLoad from './components/clLoad'
 
 export default {
   name: 'app',
   components: {
-    helloDataWorld
+    lbNav,
+    helloDataWorld,
+    clLoad
   }
 }
 </script>

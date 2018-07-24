@@ -10,7 +10,8 @@
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "prodBuild": "node build/build.js",
-    "start": "node server.js"
+    "startold": "node server.js",
+    "start": "npm run dev"
   },
   "dependencies": {
     "axios": "^0.18.0",

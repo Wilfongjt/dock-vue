@@ -36,12 +36,12 @@ export default {
   },
   computed: {
     tableURL: function () {
-      let turl = process.env.DW_DB_URL + '/' + this.tableName
+      let turl = process.env.DW_DB_URL + this.tableName
       return turl
     },
     postCreateTableBody: function () {
       let tableObj =
-      { title: process.env.DW_DB_URL + '/' + this.tableName,
+      { title: process.env.DW_DB_URL + this.tableName,
         description: 'test data',
         summary: 'test data summary',
         tags: ['test'],
@@ -105,7 +105,7 @@ export default {
     getTableObjectDelete () {
       return {
         method: 'delete',
-        url: process.env.DW_DB_URL + '/' + this.tableName,
+        url: process.env.DW_DB_URL + this.tableName,
         headers: {
           Authorization: 'Bearer ' + process.env.DB_A_TOKEN
         }
